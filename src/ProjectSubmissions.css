@@ -1,0 +1,206 @@
+
+
+.Container {
+    background-color: rgb(231, 234, 236);
+    text-align: center;
+    justify-self: middle;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+}
+
+.buttonGroup{
+    background-color: red;
+    display: inline;
+    margin-left: 40%;
+    margin-right: 0px;
+}
+
+
+.button3 {
+    background-color:olive;
+    border-color:olive;
+    border-radius: 8px;
+    color:white;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+    padding: 5px 30px;
+    width: 20%;
+    font-size: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    margin: 0 5px;
+  }
+
+   .button4 {
+  border-radius: 8px;
+  background-color: deeppink; 
+  border: solid;
+  border-color: deeppink;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 30px;
+  width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  margin: 0 5px;
+  } 
+
+  .button5 {
+    border-radius: 8px;
+    background-color: skyblue; 
+    border: solid;
+    border-color: skyblue;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 30px;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    margin: 0 5px;
+    } 
+
+ .sideBar {
+        height: 90%;
+        display: flex inline-block;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        margin-top: 29px;
+        margin-bottom: 1000px;
+        margin-left: 100px;
+        background-color:mediumblue;
+        overflow-x: hidden;
+        
+} 
+
+.sideBarButtons {
+    display: flex inline-block;
+    position: fixed;
+    z-index: 1;
+    background-color:red;
+    height: 80%;
+    padding-top: 0px;
+}
+
+.Checkbox1 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.Checkbox2 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    border-radius: 4px;
+}
+
+.Checkbox3 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    padding: 8px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 4px;   
+}
+
+.projectSubmissions {
+    display: flex inline-block;
+    background-color: skyblue;
+    margin: auto;
+    height: 2000px;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    margin-right: 100px;
+}
+
+.projectSubmissionsText {
+    background-color: skyblue;
+    display: inline;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.aidenSubmit {
+    padding-right: 40%;
+    padding-bottom: 135px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 25px;
+    align-self: middle;
+    width: 40%;
+    margin-left: 10%;
+    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+}
+
+.aidenPic{
+    border-radius: 12px;
+    align-self: left;
+    background-color: red;
+    padding-right: 100%;
+    margin-right: 0%;
+    margin-top: 20px;
+    width: 30%;
+    position: relative;
+    touch-action: pan-y pinch-zoom;
+
+    }
+
+.rawiriShow {
+    padding-right: 40%;
+    background-color: white;
+    border-radius: 25px;
+    align-self: middle;
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+}
+
+.rawiriPic{
+    border-radius: 8px;
+    align-self: left;
+    background-color: red;
+    padding-right: 100%;
+    
+    }
+
+.neveahShow {
+    padding-right: 40%;
+    background-color: white;
+    border-radius: 25px;
+    align-self: middle;
+    width: 40%;
+    margin-left: 10%;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+}
+
+.neveahPic{
+    border-radius: 8px;
+    align-self: left;
+    background-color: red;
+    padding-right: 100%;
+    position: relative;
+    }
