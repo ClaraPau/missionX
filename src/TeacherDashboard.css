@@ -1,6 +1,254 @@
-.Nav{
+.whiteNav{
+    background-color: white;
+    z-index: 1;
+}
 
-    background-color: greenyellow;
+.img-white-logo{
+    max-width: 8em;
+}
+
+.leftSideLogo{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightSideLang{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.lang-flag{
+    margin-right: 0.25em;
+    max-width: 1em;
+}
+
+.whiteNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.midSection{
+    display: flex;
+}
+
+.mainSection{
+    flex-grow: 2;
+}
+
+.button1{
+    background-color: #E5AB2C;
+    margin: 1em 0 0 38em;
+}
+
+.button2{
+    background-color: #F91C84;
+    margin: 1em 0 0 1em;
+}
+
+.button3{
+    background-color: #43C0F6;
+    margin: 1em 0 0 1em;
+}
+
+.button{
+    border: none;
+    border-radius: 0.25em;
+    color: white;
+    width: 12em;
+}
+
+.button:hover, .actionButton1:hover, .actionButton2:hover, .actionButton3:hover{
+    cursor: pointer;
+}
+
+.buttonBar{
+    align-items: column;
+    background-color: #B2E4FA;
+    padding: 0 0 1em 0;
+}
+
+.ProgressInfo{
+    display: flex;
+    margin: 1em 1em 1em 1em;
+    padding: 0.5em;
+    border-radius: 0.75em;
+    background-color: white;
+    width: 55em;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: grey 0.05em 0.05em;
+    border-radius: 50%;
+    display: inline-block;
     text-align: center;
-    width: 100%;
+    margin: 1.75em 0.75em 0 0.75em;
+    font-size: 0.75em;
+  }
+
+  .dotsDiv{
+      margin-left: 2em;
+  }
+
+.colouredDot{
+    background-color: #99EDCC;
+}
+
+.ProgressText{
+    margin: 0 0 0 0;
+}
+
+.topProgressText{
+    padding: 0 0 0 0;
+    
+}
+
+.bottomProgressText{
+    padding: 0 0 0 0;
+}
+
+.infoDiv{
+    margin: 1em 0 1em 1em;
+}
+
+.informationBackground{
+    background-color: #D8F1FC;
+    border-radius: 0.75em;
+    margin: 0 2em 1em 2em;
+    padding: 0 0 1.5em 1em;
+}
+
+.informationBackground2{
+    background-color: #D8F1FC;
+    border-radius: 0.75em;
+    margin: 1em 2em 1em 2em;
+    padding: 0em 0 1.5em 2em;
+}
+
+.childProfilePicture{
+    width: 3em;
+    height: auto;
+    margin: 0.5em;
+}
+
+.helpInfo{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.sideTextTop{
+    font-size: 0.70em;
+}
+
+.sideTextBottom{
+    font-size: 0.5em;
+    text-align: end;
+}
+
+.infoBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.greaterInfoDiv{
+    align-items: center;
+    display: flex;
+}
+
+.dateBox{
+    margin: 0em 1em 0 15em;
+}
+
+.helpRequestInfo{
+    margin: 0 0 1em 1em;
+    border-radius: 0.75em;
+    background-color: white;
+    width: 55em;
+}
+
+.ScrollBar{
+    width: 1em;
+    height: 30em;
+    background: white;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5em;
+}
+
+.ScrollBar2{
+    width: 1em;
+    height: 30em;
+    background: white;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3em;
+} 
+
+.miniScrollBar{
+    width: 0.7em;
+    height: 8.5em;
+    background: #43C0F6;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -28em;
+}
+
+.ScrollBarDiv{
+    width: 5%;
+}
+
+.mainDivBox{
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.infoDivArea{
+    width: 95%;
+}
+
+.actionButton1{
+    display: inline-block;
+    margin: 0 0 0.5em 38.5em;
+    color: #6C6C6C;
+}
+
+.actionButton2{
+    display: inline-block;
+    margin: 0 0 0.5em 2em;
+    color: #6C6C6C;
+}
+
+.actionButton3{
+    display: inline-block;
+    color: #6C6C6C;
+    margin-left: 30em;
+}
+
+.pageTitle{
+    padding: 2em 0 0 2em;
+    color: #6C6C6C;
+}
+
+.pageTitle2{
+    color: #6C6C6C;
+    padding: 0em 0 0 1em;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.actionImages{
+    width: 1em;
+    height: auto;
 }

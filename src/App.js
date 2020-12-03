@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 import Logo from './kids.JPG'; 
-import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
-import ProjectSubmissions from './ProjectSubmissions.js';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import MyComponent from './ProjectSubmissions.js';
 import TeacherDashboard from './TeacherDashboard.js';
+import StudentProfile from './StudentProfile.js';
+
 
 
 function App() {
@@ -14,13 +16,17 @@ function App() {
   <Switch>
 
 < Route path = "/ProjectSubmissions">
-    <ProjectSubmissions/>
+    <MyComponent/>
 </Route>
 
 <Route path = "/TeacherDashboard">
 <TeacherDashboard />
-
 </Route>
+
+<Route path = "/StudentProfile">
+<StudentProfile />
+</Route>
+
 
 <Route path = "/">
 <Pau />
@@ -43,7 +49,7 @@ function Pau()
 <section class="container">
   <div className="left-half">
     <article>
-          <img className = "Kidspic" src={Logo} />   
+          <img className = "Kidspic" src={Logo} alt = "hello" />   
     </article>
   </div>
 

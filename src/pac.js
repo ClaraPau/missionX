@@ -49,10 +49,9 @@ class App extends Component{
     const imgStyle = { height : this.state.height, width: this.state.width} 
     return(  
       <div> 
-        <h2>GeeksforGeeks</h2> 
+        <h2>Enlarge</h2> 
         {/* Assign reference to DOM element     */} 
-        <img style={imgStyle} ref={this.imgRef} src= 
-'https://media.geeksforgeeks.org/wp-content/uploads/20200923125643/download.png' alt='gfg' /> 
+        <img style={imgStyle} ref={this.imgRef} src= './aidenEnlarge.JPG' alt='AidenEnlarge' /> 
         <div> 
           <button onClick={this.handleZoomIn}>Zoom In</button> 
           <button onClick={this.handleZoomOut}>Zoom Out</button> 

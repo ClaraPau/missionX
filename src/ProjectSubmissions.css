@@ -1,5 +1,3 @@
-
-
 .Container {
     background-color: rgb(231, 234, 236);
     text-align: center;
@@ -76,15 +74,14 @@
         margin-bottom: 1000px;
         margin-left: 100px;
         background-color:mediumblue;
-        overflow-x: hidden;
-        
+        overflow-x: hidden;   
 } 
 
 .sideBarButtons {
     display: flex inline-block;
     position: fixed;
     z-index: 1;
-    background-color:red;
+    background-color: white;
     height: 80%;
     padding-top: 0px;
 }
@@ -140,67 +137,156 @@
     margin-top: 0px;
 }
 
+/* .imgLink {
+     height: 5px;
+    }
+
+.imgLink img {
+    height: 8rem;
+}
+
+.imgLink:active img, .imgLink:focus img {
+    height: 16rem;
+} */
+
+
 .aidenSubmit {
-    padding-right: 40%;
-    padding-bottom: 135px;
-    margin-bottom: 40px;
     background-color: white;
     border-radius: 25px;
-    align-self: middle;
-    width: 40%;
-    margin-left: 10%;
-    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
-}
-
-.aidenPic{
-    border-radius: 12px;
-    align-self: left;
-    background-color: red;
-    padding-right: 100%;
-    margin-right: 0%;
-    margin-top: 20px;
-    width: 30%;
-    position: relative;
-    touch-action: pan-y pinch-zoom;
-
-    }
-
-.rawiriShow {
-    padding-right: 40%;
-    background-color: white;
-    border-radius: 25px;
-    align-self: middle;
-    width: 40%;
-    margin-left: 10%;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
-}
-
-.rawiriPic{
-    border-radius: 8px;
-    align-self: left;
-    background-color: red;
-    padding-right: 100%;
-    
-    }
-
-.neveahShow {
-    padding-right: 40%;
-    background-color: white;
-    border-radius: 25px;
-    align-self: middle;
-    width: 40%;
+    width: 80%;
     margin-left: 10%;
     padding-bottom: 40px;
     margin-bottom: 10px;
     box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    justify-content: left;
+    padding-bottom: 200px;
 }
 
-.neveahPic{
+.item07 {
+    background-color: aliceblue;
+    padding-left: 9px;
+}
+
+.item08 {
+    background-color: aliceblue;
+}
+
+.item09 {
+    background-color: aliceblue;
+    padding-left: 210px;
+    font-size: 8px;
+    line-height: 200%;
+
+}
+
+/* .aidenPic{
+    border-radius: 12px;
+    align-self: left;
+    background-color: white;
+    padding-right: 100%;
+    margin-right: 0%;
+    margin-top: 20px;
+    width: 10%;
+    position: relative;
+    } */
+
+.rawiriShow {
+    background-color: white;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.item04 {
+    background-color: aliceblue;
+}
+
+.item05 {
+    background-color: aliceblue;
+}
+
+.item06 {
+    background-color: aliceblue;
+    padding-left: 210px;
+    font-size: 8px;
+    line-height: 200%;
+}
+
+/* .rawiriPic{
     border-radius: 8px;
     align-self: left;
-    background-color: red;
+    background-color: white;
     padding-right: 100%;
-    position: relative;
+    padding-top: 0px;
     }
+
+.rawiri{
+    border-radius: 8px;
+    float: left;
+    height: 75px;
+    width: 235px;
+    } */
+    
+.neveahShow {
+    background-color: white;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.item01 {
+    background-color: aliceblue;
+}
+
+.item02 {
+    background-color: aliceblue;
+}
+
+.item03 {
+    background-color: aliceblue;
+    padding-left: 210px;
+    font-size: 8px;
+    line-height: 200%;
+}
+
+
+/* .neveahPic{
+    background-color: red;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    width: 100%;
+    } */
+
+   
