@@ -1,13 +1,159 @@
-.OutsideSquare {
-    background-color: powderblue;
-    width: 500px;
-    height: 500px;
-    margin: 0px;
-    font-family: sans-serif;
-    text-align: center;
-    }
 
-.h1 {
-text-align: left;
-margin: 0px;
-}
+@font-face{
+    font-family: Open-Sans;
+    src: url(https://fonts.google.com/specimen/Open+Sans);
+  }
+  
+  html, body, section {
+    height: 100%;
+  }
+  
+  body {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 150%;
+    text-align: center;
+    text-shadow: 0;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 2 rem;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .left-half {
+    background-color: white;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .Kidspic {
+    border-radius: 5%;
+    height: 80%;
+    padding-left: 0%;
+  }
+  
+  .right-half {
+    background-color: white;
+    flex: 1;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .buttons {
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 70px;}
+  
+  .button1 {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    color: gray;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    border-color:skyblue;
+    text-align: center;
+    padding: 5px 30px;
+    width: 25%;
+    font-size: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .button2 {
+    flex: 1;
+    border-radius: 8px;
+    background-color: deeppink; 
+    border: solid;
+    border-color: deeppink;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 30px;
+    width: 20%;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  }
+  
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width: 80%;
+    height: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    font: calc(5px+25vmin);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0mm;
+    padding-top: 100px;
+    padding-right: 0mm;
+    color: gray;
+    background-color: lightblue;
+  }
+  
+  
+  .one {
+      list-style-type: none;
+      justify-content: flex-start;
+      text-align: left;
+      margin-left: 300px;
+      font-size: 10px;
+      line-height: 2em;
+  }
+  
+  .two {
+      list-style-type: none;
+      justify-content: flex-start;
+      text-align: left;
+      font-size: 10px;
+      margin-left: 120px;
+      line-height: 2em;
+      
+  }
+  
+  .three {
+      list-style-type: none;
+      justify-content: flex-start;
+      text-align: left;
+      font-size: 10px;
+      margin-left: 40px;
+      line-height: 2em;
+  }
+  
+  .four {
+      list-style-type: none;
+      justify-content: flex-start;
+      text-align: left;
+      font-size: 10px;
+      line-height: 2em;
+      margin-right: 0;
+  }
+  
+  .five{
+        list-style-type: none;
+        justify-content: flex-start;
+        text-align: left;
+        margin-right: 200px;
+        font-size: 10px;
+        margin-left: 0px;
+        line-height: 2em;
+  }
+  

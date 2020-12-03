@@ -1,14 +1,95 @@
 import React from 'react';
 import './firstPage.css';
+import Logo from './kids.JPG'; 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function firstPage() {
-    return (
 
-        <div>
-            <div className = "OutsideSquare">
-                <h1>BEGINNER COURSE</h1>
-            </div>
-        </div>
-    );
+function App()
+{
+  return(
+
+    <div>
+{/* First section */}
+
+<section class="container">
+  <div className="left-half">
+    <article>
+          <img className = "Kidspic" src={Logo} alt = "Kids" />   
+    </article>
+  </div>
+
+  <div className="right-half">
+    <article>
+    <br></br>
+    <br></br>
+      <h2>What are you waiting for?</h2>
+      <br></br>
+      <h1>Start teaching Digital Technologies today.</h1>
+      <p>If you need more information, we are happy to answer any
+      <br></br>questions you may have. </p>
+      <br></br>
+      <br></br>
+      <br></br>
+    </article>
+
+    <div className = "buttons">
+        <button className="button1" onClick={() => this.handleClick()}> ENQUIRE NOW
+        </button>
+        <button className="button2" onClick={() => this.handleClick()}> SIGN UP
+        </button>
+    </div>
+
+  </div>
+</section>
+
+
+{/* Footer */}
+<div className = "footer">
+
+    <div className = "one">
+        <h2>COMPANY</h2>
+        <li> About us</li>
+        <li> Career</li>
+        <li> Partners</li>
+    </div>
+
+    <div className = "two">
+        <h2>COURSES</h2>
+        <li>Register</li>
+        <li>Login</li>
+        <li>Projects</li>
+        <li>Teachers</li>
+        <li>Parents</li>
+        <li>Resources</li>
+     </div>
+
+  <div className = "three">
+        <h2>SUPPORT</h2>
+        <li>FAQs</li>
+        <li>Helpdesk</li>
+        <li>Contact Us</li>
+  </div>
+
+    <div className = "four">
+        <h2>LEGAL</h2>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+    </div>
+
+  <div className = "five">
+    <h2>LevelUp Works</h2>
+    <li>LevelUp Works is an Auckland-based enterprise dedicated
+    to developing game-based learning software to help
+    teachers in response to the New Zealand Digital Technologies &
+    Hangarau Matihiko.</li>
+    <li>alan@levelupworks.com</li>
+    <li>(021) 668 185</li>
+</div>
+</div>
+
+    </div>
+  );
 }
-export default firstPage;
+
+export default App;
+
