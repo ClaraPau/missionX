@@ -1,0 +1,33 @@
+.profileGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 50px;
+    background-color: lightblue;
+    padding: 10px;
+    width: 80%;
+    align-self: center;
+    border-radius: 10px;
+  }
+
+.item100,
+.item200,
+.item300,
+.item400,
+.item500,
+.item600,
+.item700,
+.item800,
+.item900,
+.item1000,
+.item1100,
+.item1200,
+.item1300,
+.item1400,
+.item1500 {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 8px;
+    width: 150px;
+    font-weight: bold;
+    box-shadow: 0px -5px 5px rgba(0,0,0,.1);
+}

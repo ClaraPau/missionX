@@ -1,9 +1,9 @@
 import React from 'react';
-import './StudentProfile.css';
+import './ProfileView.css';
 import JasminaSalvadorpic from './jasminaSalvador.JPG'; 
 
 
-function StudentProfile () {
+function ProfileView () {
 
     return (
 <div>
@@ -21,7 +21,7 @@ function StudentProfile () {
       
     <article className = "teacherOptions">
 
-    <img className = "teacherProfile" src={JasminaSalvadorpic} alt = "jasminaPic" />   
+    <img className = "teacherProfile" src={JasminaSalvadorpic} alnot = "jasminaPic" />   
 
 <div className = "buttonList">
 
@@ -125,4 +125,4 @@ function StudentProfile () {
     );
 }
 
-export default StudentProfile;
+export default ProfileView;

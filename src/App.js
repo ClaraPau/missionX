@@ -4,7 +4,8 @@ import Logo from './kids.JPG';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import MyComponent from './ProjectSubmissions.js';
 import TeacherDashboard from './TeacherDashboard.js';
-import StudentProfile from './StudentProfile.js';
+import StudentProfiles from './StudentProfiles.js';
+import ProfileView from './ProfileView.js';
 
 
 
@@ -23,8 +24,12 @@ function App() {
 <TeacherDashboard />
 </Route>
 
-<Route path = "/StudentProfile">
-<StudentProfile />
+<Route path = "/ProfileView">
+<ProfileView />
+</Route>
+
+<Route path = "/StudentProfiles">
+<StudentProfiles />
 </Route>
 
 
